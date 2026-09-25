@@ -1,0 +1,1 @@
+<resources><style name="Theme.StudentCloudHub" parent="Theme.Material3.Light.NoActionBar"><item name="colorPrimary">@color/primary</item><item name="colorSecondary">@color/secondary</item><item name="android:fontFamily">sans-serif</item><item name="android:statusBarColor">#6335E8</item><item name="android:navigationBarColor">@color/white</item></style></resources>

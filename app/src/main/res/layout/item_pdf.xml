@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/subject_card">
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="📄"
+        android:textSize="23sp"
+        android:background="#F1ECFF"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="14dp">
+
+        <TextView
+            android:id="@+id/pdfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit 1 Notes.pdf"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#25256D"/>
+
+        <TextView
+            android:id="@+id/pdfDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study material"
+            android:textSize="12sp"
+            android:textColor="#8888A8"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="›"
+        android:textSize="28sp"
+        android:textColor="#6335E8"
+        android:gravity="center"/>
+
+</LinearLayout>
